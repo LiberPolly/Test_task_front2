@@ -1,4 +1,5 @@
-# test_task_front2__galochkina
+Тестовое задание для компании Группа Управляющих компаний
+
 
 ## Project setup
 ```
