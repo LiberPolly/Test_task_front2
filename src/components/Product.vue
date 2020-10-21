@@ -16,7 +16,6 @@
                 <div class="product_photo">
                   <a href="#" class="url--link product__link">
                     <img :src="imgSourse" />
-                
                   </a>
                 </div>
                 <div class="product_description">
@@ -95,7 +94,7 @@ export default {
         .replace(/;/g, ",;");
       return assocProducts.split(";");
     },
-    imgSourse: function() {
+    imgSourse: function () {
       return require(`../assets/images/${this.imgName}_220x220_1.jpg`);
     },
   },
